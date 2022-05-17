@@ -1,0 +1,629 @@
+@import url("https://fonts.googleapis.com/css2?family=Slabo+27px&family=Viaoda+Libre&display=swap");
+body {
+  font-family: 'Slabo 27px', serif;
+  background: #eeeeee;
+  overflow-x: hidden;
+}
+
+.tracking-in-expand-fwd {
+  position: absolute;
+  top: 3rem;
+  font-family: 'Viaoda Libre', cursive;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 0px 3px 1px rgba(173, 173, 173, 0.5);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  color: #f63f3a;
+  font-size: 82px;
+  -webkit-animation: tracking-in-expand-fwd 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand-fwd 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@-webkit-keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+.heading {
+  color: #ffa42e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  word-wrap: normal;
+  line-height: 3.4rem;
+}
+
+.Mainimg {
+  height: auto;
+  margin-top: -2rem;
+  -webkit-box-shadow: 0 10px 100px 10px white;
+          box-shadow: 0 10px 100px 10px white;
+  overflow: hidden;
+}
+
+.Mainimg img {
+  height: 100%;
+  -webkit-filter: brightness(1.05);
+          filter: brightness(1.05);
+  border-radius: 10px;
+  width: 100%;
+}
+
+.logo {
+  margin-left: 1rem;
+  width: 12rem;
+  height: 12rem;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  height: 100%;
+  position: relative;
+}
+.menu .menubar a{text-decoration: none;
+  color: black;
+}
+.menu .menubar {
+  
+  padding: 0;
+  list-style: none;
+  font-family: 'Viaoda Libre', cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -4rem;
+  height: 100%;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+select {
+  width: fix-content;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: transparent;
+  border: none;
+}
+
+.fixed:active {
+  border: none;
+}
+
+.fixed option {
+  font-size: 16px;
+  text-transform: capitalize;
+  background: #eeeeee;
+  border: #eeeeee;
+  -webkit-box-shadow: 0 !important;
+          box-shadow: 0 !important;
+}
+
+.aboutimg {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.aboutimg img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.abouttext {
+  width: 20rem;
+  color: #ffa42e;
+  border: 2px solid white;
+  height: 100%;
+  border-radius: 0;
+  margin: 0 1rem;
+  padding: 2rem;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  -webkit-box-shadow: 0px 0px 50px 2px #fff8f8;
+          box-shadow: 0px 0px 50px 2px #fff8f8;
+}
+
+.abouttext h2 {
+  color: #f63f3a;
+  text-shadow: 0px 3px 1px rgba(173, 173, 173, 0.5);
+  font-family: 'Viaoda Libre', cursive;
+}
+
+.abouttextsignanture {
+  position: absolute;
+  bottom: -6rem;
+  font-size: 54px;
+  color: #f63f3a;
+  text-transform: capitalize;
+  width: 100%;
+  left: 15rem;
+  font-family: 'Viaoda Libre', cursive;
+  -webkit-animation: tracking-in-expand-fwd 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand-fwd 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  text-shadow: 0px 3px 1px rgba(173, 173, 173, 0.5);
+}
+
+.abouttextsignanture:hover {
+  -webkit-animation: tracking 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@-webkit-keyframes tracking {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+@keyframes tracking {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+.mencollection {
+  overflow: hidden;
+  width: 100%;
+}
+
+.mencollection table {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.mencollection img {
+  width: 100%;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  height: 33rem;
+  -webkit-filter: grayscale(90%);
+          filter: grayscale(90%);
+  position: relative;
+}
+
+.mencollection img:hover {
+  -webkit-transform: translate(7%);
+          transform: translate(7%);
+  height: 33rem;
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.img:before {
+  color: #ffa42e;
+  width: 10%;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  text-orientation: upright;
+  height: 33rem;
+  font-size: 26px;
+  text-transform: capitalize;
+  text-align: center;
+  position: absolute;
+  content: 'men collection';
+}
+
+.womencollection .woimg:before {
+  content: 'women Collection';
+  color: #ffa42e;
+  width: 10%;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  text-orientation: upright;
+  height: 33rem;
+  font-size: 26px;
+  text-transform: capitalize;
+  text-align: center;
+  position: absolute;
+}
+
+.womencollection table {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.womencollection img {
+  width: 100%;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  height: 33rem;
+  -webkit-filter: grayscale(90%);
+          filter: grayscale(90%);
+  position: relative;
+}
+
+.womencollection img:hover {
+  -webkit-transform: translate(7%);
+          transform: translate(7%);
+  height: 33rem;
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.fotter h5 {
+  font-weight: normal;
+  font-size: 36px;
+  font-family: 'Viaoda Libre', cursive;
+}
+
+.fotter h1 {
+  font-size: 50px;
+  color: grey;
+  font-family: 'Viaoda Libre', cursive;
+}
+
+.fotter h4 {
+  color: black;
+  font-size: 36px;
+  font-family: 'Viaoda Libre', cursive;
+}
+.login{font-family: 'Viaoda Libre', cursive;
+    letter-spacing: 1px;
+    border-left: 2px solid black;
+    padding: 0 1rem;
+    input{border: 1px solid grey;
+        width: 100%;
+        height: 4rem;
+        margin: 1rem 0;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    input:-internal-autofill-selected{
+        background-color: transparent !important;
+
+    }
+    h2{
+        text-align: center;
+        font-family: 'Viaoda Libre', cursive;
+    }
+    .radio{
+        width: 15px;
+        height: 15px;
+    }
+    button{
+        background: black;
+        color: white;
+        font-size: 26px;
+        letter-spacing: 1px;
+        width: 100%;
+        height: 5rem;
+    }
+}.register{
+    h2{
+        text-align: center;
+        font-family: 'Viaoda Libre', cursive;
+    }
+    p{
+        text-align: center;
+        margin: 5.2rem 0;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    button{
+        a{
+            color: white;
+            text-decoration: none;
+        }
+            font-family: 'Viaoda Libre', cursive;
+        background: black;
+        color: white;
+        font-size: 26px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        width: 100%;
+        height: 5rem;
+        
+    }
+}
+.form{
+  table{font-family: 'Slabo 27px', serif;
+    width: 100%;
+  td{
+    width: 50%;
+    font-size: 22px;
+  }
+  }
+  h2{
+    text-align: center;
+    font-family: 'Viaoda Libre', cursive;
+  }
+  input{
+    width: 200%;
+    margin: .5rem 0;
+    height: 3rem;
+    border-radius: 10px;
+    
+  }
+  button{
+    background: black;
+    color: white;
+    font-size: 26px;
+    letter-spacing: 1px;
+    width: 50%;
+    margin: 1rem 0;
+    border: 2px solid white;
+    height: 5rem;
+  }
+}
+.checkout{
+  overflow: hidden;
+  padding: 0;
+  list-style: none;
+}
+
+
+.categorybox{
+  margin: 2rem 0;
+  height: 30rem;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.877);
+  img{width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+display: block;
+}
+
+.categoryboxab{
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #eeeeee;
+  opacity: 0;
+  z-index: 99;
+  ul{padding: 0;
+    list-style: none;
+    font-family: 'Viaoda Libre', cursive;
+    color: black;
+    text-transform: capitalize;
+    
+    font-size: 28px;
+    font-weight: 600;
+    z-index: 9999;
+
+    .name{
+      position: absolute;
+      top: 1rem;
+      left: 2rem;
+
+    }
+    .price{
+position: absolute;
+bottom: 1rem;
+right: 2rem;
+    }
+  }
+
+  
+
+}
+.categoryboxab:hover{
+  animation-iteration-count: 1;
+  animation: slide2 1s;
+  opacity: 0.4;
+display: block !important;
+}
+@keyframes slide2{
+  from{
+    transform: scaleY(0%);
+  }
+  to{
+    transform: scaleY(100%);
+  }
+}
+/* From uiverse.io */
+.fancy {
+  background-color: transparent;
+  border: 2px solid #000;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  
+  margin: 0 3rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 1.25em 2em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  transition: all 0.3s ease-in-out;
+  user-select: none;
+  font-size: 13px;
+ }
+ 
+ .fancy::before {
+  content: " ";
+  width: 1.5625rem;
+  height: 2px;
+  background: black;
+  top: 50%;
+  left: 1.5em;
+  position: absolute;
+  transform: translateY(-50%);
+  transform-origin: center;
+  transition: background 0.3s linear, width 0.3s linear;
+ }
+ 
+ .fancy .text {
+  font-size: 1.125em;
+  line-height: 1.33333em;
+  padding-left: 2em;
+  display: block;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+ }
+ 
+ .fancy .top-key {
+  height: 2px;
+  width: 1.5625rem;
+  top: -2px;
+  left: 0.625rem;
+  position: absolute;
+  background: #e8e8e8;
+  transition: width 0.5s ease-out, left 0.3s ease-out;
+ }
+ 
+ .fancy .bottom-key-1 {
+  height: 2px;
+  width: 1.5625rem;
+  right: 1.875rem;
+  bottom: -2px;
+  position: absolute;
+  background: #e8e8e8;
+  transition: width 0.5s ease-out, right 0.3s ease-out;
+ }
+ 
+ .fancy .bottom-key-2 {
+  height: 2px;
+  width: 0.625rem;
+  right: 0.625rem;
+  bottom: -2px;
+  position: absolute;
+  background: #e8e8e8;
+  transition: width 0.5s ease-out, right 0.3s ease-out;
+ }
+ 
+ .fancy:hover {
+  color: white;
+  background: black;
+ }
+ 
+ .fancy:hover::before {
+  width: 0.9375rem;
+  background: white;
+ }
+ 
+ .fancy:hover .text {
+  color: white;
+  padding-left: 1.5em;
+ }
+ 
+ .fancy:hover .top-key {
+  left: -2px;
+  width: 0px;
+ }
+ 
+ .fancy:hover .bottom-key-1,
+  .fancy:hover .bottom-key-2 {
+  right: 0;
+  width: 0;
+ }
+
+ 
+.itemdetail{
+  overflow: hidden;
+  .mainimg{
+height: 10rem;width: 10rem;
+overflow: hidden;
+img{
+  width: 100%;
+}
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
