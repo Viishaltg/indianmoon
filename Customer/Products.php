@@ -63,7 +63,7 @@ $totalRows_Recordset2 = mysqli_num_rows($Recordset2);
 	  ?>
   <div class="col-lg-4">
       <div class="categorybox">
-      <a href="itemdetail.php">    <img src="<?php echo $row_Recordset1['Image']; ?>" width="100%" alt="">
+      <a href="Right.php">    <img src="<?php echo $row_Recordset1['Image']; ?>" width="100%" alt="">
 
       <div class="categoryboxab"><ul><li class="name"><?php echo $row_Recordset1['ItemName']; ?></li>
       <li class="price"><?php echo $row_Recordset1['Price']; ?></li></ul></div></a>
@@ -81,7 +81,7 @@ $totalRows_Recordset2 = mysqli_num_rows($Recordset2);
 
 <div class="col-lg-4">
       <div class="categorybox">
-      <a href="itemdetail.php"><img src="<?php echo $row_Recordset2['Image']; ?>" width="100%" alt=""
+      <a href="Right.php"><img src="<?php echo $row_Recordset2['Image']; ?>" width="100%" alt=""
 
       <div class="categoryboxab"><ul><li class="name"><?php echo $row_Recordset2['ItemName']; ?></li>
       <li class="price"><?php echo $row_Recordset2['Price']; ?></li></ul></div>></a>

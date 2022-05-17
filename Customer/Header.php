@@ -24,23 +24,11 @@ session_start();
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>Online Clothing Store</title>
-<!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
 <link rel="stylesheet" href="App.css">
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<!-- <style type="text/css">
-<!--
-.style8 {font-size: 24px}
-.style9 {font-size: 95%; font-weight: bold; color: #003300; font-family: Verdana, Arial, Helvetica, sans-serif; }
--->
-</style> -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script type="text/javascript">
-// <!-- <![CDATA[
 
-// Project: Dynamic Date Selector (DtTvB) - 2006-03-16
-// Script featured on JavaScript Kit- http://www.javascriptkit.com
-// Code begin...
-// Set the initial date.
 var ds_i_date = new Date();
 ds_c_month = ds_i_date.getMonth() + 1;
 ds_c_year = ds_i_date.getFullYear();
